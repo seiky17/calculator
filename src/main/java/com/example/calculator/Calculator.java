@@ -34,7 +34,7 @@ public class Calculator {
 
             System.out.println("더 계산하시겠습니까? (exit 입력 시 종료)");
             String str = sc.next();
-            if(Objects.equals(str, "exit")) {
+            if(str.equals("exit")) {
                 break;
             }
         }
